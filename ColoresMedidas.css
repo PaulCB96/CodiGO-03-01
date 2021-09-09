@@ -1,0 +1,12 @@
+h1{
+    color: cadetblue;
+}
+h2{
+    color: #999;
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+p{
+    background-color: hsl(180, 55%, 95%);
+}
