@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;           
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .principal{
+            width: 500px;
+            height: 1400px;
+            border: 1px solid lightgrey;
+            margin-top: 7px;
+            margin-left: 5px;
+            position: relative;
+        }
+        .secondary{
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: 1px solid lightseagreen;
+        }
+        .caja2{
+            background-color: lightskyblue;
+            position: absolute;
+            top: 60px;
+            left: 25px;
+        }
+        .caja3{
+            background-color: lightslategrey;
+            position: fixed;
+            bottom: 55px;
+            right: 20px;
+        }
+        .caja1{
+            background-color: lightpink;
+            position: sticky;
+            top: 2px;
+        }
+    </style>
+</head>
+<body>
+<section class="principal">
+    <div class="secondary caja1">cajita1</div>
+    <div class="secondary caja2">cajita2</div>
+    <div class="secondary caja3">cajita3</div>
+    <div class="secondary caja4">cajita4</div>    
+</section>
+</body>
+</html>
