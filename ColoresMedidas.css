@@ -1,5 +1,14 @@
+*{
+    border: 1px solid lightgray;
+}
+header{
+    width: 375px;
+    height: 200px;
+    text-align: center;
+}
 h1{
     color: cadetblue;
+    width: 50%;
 }
 h2{
     color: #999;
@@ -10,3 +19,4 @@ h3{
 p{
     background-color: hsl(180, 55%, 95%);
 }
+
